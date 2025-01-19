@@ -1,0 +1,124 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ffeef5, #ffd1dc); /* Subtle pink gradient */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    background-color: #1b1f5c; /* Navy Blue */
+    color: white;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Adds depth to the header */
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header a {
+    color: #ffd1dc; /* Soft pink links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color change */
+}
+
+header a:hover {
+    color: #ff85a1; /* Brighter pink on hover */
+}
+
+header .profile-pic {
+    width: 150px; /* Size of the picture */
+    height: 150px; /* Ensures it's a perfect square */
+    border-radius: 50%; /* Creates a circular shape */
+    object-fit: cover; /* Keeps the image proportional within the circle */
+    margin-bottom: 15px; /* Adds spacing below the image */
+    box-shadow: 0 4px 10px rgba(27, 31, 92, 0.4); /* Adds a soft shadow */
+    border: none; /* Removes the border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover animation */
+}
+
+header .profile-pic:hover {
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
+    box-shadow: 0 8px 20px rgba(27, 31, 92, 0.6); /* Intensifies the shadow on hover */
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 15px; /* Rounded corners for a modern look */
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Adds depth to each section */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+section:hover {
+    transform: translateY(-5px); /* Lifts the card slightly on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Intensifies the shadow */
+}
+
+h2 {
+    color: #1b1f5c; /* Navy Blue */
+    border-bottom: 3px solid #ffd1dc; /* Pink underline for headings */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 5px solid #ffd1dc; /* Pink accent line */
+    background: #fff7fb; /* Light pink background for list items */
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #1b1f5c; /* Navy Blue */
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1); /* Shadow above the footer */
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ffd1dc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #ff85a1; /* Brighter pink on hover */
+}
+
+
+
